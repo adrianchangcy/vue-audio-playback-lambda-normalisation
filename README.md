@@ -40,7 +40,7 @@ For example, these switches will feel familiar to me:
 
 ### "Why not use ready-made solutions like vue-audio?"
 - The few decent options are either highly-opinionated, inactively maintained, bugged, or not detail-oriented
-- My use-cases require infinite scrolling integration, >= 1 instances, URL/Blob data type, with specified design details
+- My use cases require infinite scrolling integration, >= 1 instances, URL/Blob data type, with specified design details
 - I estimated that coding from scatch would only take slightly longer than forcing a solution to fit the mould
 - This provided strong benefits of knowing what was coded, and a tailored solution to cover all use cases
 
