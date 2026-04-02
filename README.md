@@ -5,10 +5,10 @@ Includes Python/AWS Lambda to normalize audio and return volume peaks. Tests inc
 Continue reading for a demo comparison and a detailed review of how these solutions solve specific problems, and advice on specific use cases.
 
 ### Demo
-<video src="https://github.com/user-attachments/assets/7ac5b80c-cffb-4ee3-b57b-20fb31078f07" width="100%" controls>
+<video src="https://github.com/user-attachments/assets/7ac5b80c-cffb-4ee3-b57b-20fb31078f07" width="100%" style="object-fit: contain;" controls>
   Your browser does not support the video tag.
 </video>
-<video src="https://github.com/user-attachments/assets/c5a94fdf-659e-4f14-908c-0fe6250b6b35" width="100%" controls>
+<video src="https://github.com/user-attachments/assets/c5a94fdf-659e-4f14-908c-0fe6250b6b35" width="100%" style="object-fit: contain;" controls>
   Your browser does not support the video tag.
 </video>
 
@@ -21,7 +21,7 @@ You are welcome to a full code walkthrough during the interview. There's more to
 With transferable core concepts learned across different tools, it feels great to improve at system design and big-picture focus.
 For example, these switches will feel familiar to me:
 - TS for Vue to React/Angular
-- OOP for C# to Java,
+- OOP for C# to Java
 - MVC for Django to Rails
 - SQL for PostgreSQL to MySQL
 - AWS to GCP/Azure, etc.
