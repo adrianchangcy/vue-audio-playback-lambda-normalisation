@@ -44,8 +44,8 @@ For example, these switches will feel familiar to me:
 - I estimated that coding from scatch would only take slightly longer than forcing a solution to fit the mould
 - This provided strong benefits of knowing what was coded, and a tailored solution to cover all use cases
 
-#### I acknowledge that this is not always the best path during collaboration vs. solo work.
-However, I believe in being context-first. For this project, it was the right thing to do.
+#### I acknowledge that this is not always the best path during collaboration vs. solo work. However, I believe in being context-first.
+This project was being built from the ground up, solo, with an interest in learning deeply on how frameworks and best practices guide a project with minimal friction. It was the right choice.
 
 ### Solutions
 - Uses Animejs for smooth animation
