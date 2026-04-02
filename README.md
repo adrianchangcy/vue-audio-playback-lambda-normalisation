@@ -58,7 +58,7 @@ This project was being built from the ground up, solo, with an interest in learn
 
 ### Caveats
 - Moderately complex CSS solution was used to achieve certain design goals
-- HTML Canvas cannot be fixed to full playback width for perfect accuracy, due to it blurring with mismatched dimensions
+- HTML Canvas cannot be fixed to full playback width for perfect accuracy of peaks' positions, due to it blurring with mismatched dimensions, so they're made as wide as possible and then centered
 
 ### Tips on Use
 - If you have >1 instances to track, give each of them their own UUID, and track with a parent component or store (Pinia)
