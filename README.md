@@ -32,7 +32,7 @@ For example, these switches will feel familiar to me:
 
 ### Problems
 - Default playback slider is staggered and not smooth
-- When playback completes, HTMLAudio.ended is still false
+- When playback completes, HTML Audio.ended is still false
 - Dragging to end after completion causes sudden 0.5s final playback; bad UX
 - Unpleasant DX when .play() returns a Promise, while .pause() is sync
 - Animejs does not perfectly replay its animation
@@ -48,17 +48,17 @@ For example, these switches will feel familiar to me:
 This project was being built from the ground up, solo, with an interest in learning deeply on how frameworks and best practices guide a project with minimal friction. It was the right choice.
 
 ### Solutions
-- Uses Animejs for smooth animation
-- Lets HTMLAudio play the final 0.5s without the user knowing
+- Use Animejs for smooth animation
+- Let HTML Audio play the final 0.5s without the user knowing
 - Write-once logic to handle .play() and .pause() easily across the codebase
-- Fixed Animejs's edge cases while coupling it directly to HTMLAudio's states and UI actions
+- Fixed Animejs's edge cases while coupling it directly to HTML Audio's states and UI actions
 - Careful use of event listeners and focus behaviors for the keyboard, with YouTube as inspiration
 - Mobile-friendly by re-rendering UI (sliders, peaks) whenever screen width changes
-- Highly performant audio peaks display via HTMLCanvas, as having that many HTML divs will cause severe lag
+- Highly performant audio peaks display via HTML Canvas, as having x20 extra divs for each HTML Canvas will cause severe lag
 
 ### Caveats
 - Moderately complex CSS solution was used to achieve certain design goals
-- HTMLCanvas cannot be fixed to full playback width for perfect accuracy, due to it blurring with mismatched dimensions
+- HTML Canvas cannot be fixed to full playback width for perfect accuracy, due to it blurring with mismatched dimensions
 
 ### Tips on Use
 - If you have >1 instances to track, give each of them their own UUID, and track with a parent component or store (Pinia)
