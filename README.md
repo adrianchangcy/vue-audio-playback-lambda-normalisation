@@ -1,6 +1,6 @@
 # vue-audio-playback-and-lambda-normalization
 Vue + Tailwind audio playback component to solve HTML Audio's native behaviours. Keyboard-friendly.
-Includes Python/AWS Lambda to normalize audio and return volume peaks. Tests included.
+Includes Python/AWS Lambda to normalise audio and return volume peaks. Tests included.
 
 Continue reading for a detailed review of how these 2 (of many) solutions from my full private repo solves specific problems, with advice on how to use them.
 
@@ -17,7 +17,7 @@ To keep my full repo private, only safe and isolated full solutions are shared.
 Thanks for understanding!
 
 ### To Recruiters 👋
-You are welcome to a full code walkthrough during the interview. There's more to show.
+You are welcome to a full code walkthrough during the interview.
 With transferable core concepts learned across different tools, it feels great to improve at system design and big-picture focus.
 For example, these switches will feel familiar to me:
 - TS for Vue to React/Angular
