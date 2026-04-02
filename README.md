@@ -5,8 +5,12 @@ Includes Python/AWS Lambda to normalize audio and return volume peaks. Tests inc
 Continue reading for a demo comparison and a detailed review of how these solutions solve specific problems, and advice on specific use cases.
 
 ### Demo
-[HTMLAudio_demo.webm](https://github.com/user-attachments/assets/7ac5b80c-cffb-4ee3-b57b-20fb31078f07)
-[VPlayback_demo.webm](https://github.com/user-attachments/assets/c5a94fdf-659e-4f14-908c-0fe6250b6b35)
+<video src="https://github.com/user-attachments/assets/7ac5b80c-cffb-4ee3-b57b-20fb31078f07" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
+<video src="https://github.com/user-attachments/assets/c5a94fdf-659e-4f14-908c-0fe6250b6b35" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
 
 ### Disclaimer
 To keep my full repo private, only safe and isolated full solutions are shared.
