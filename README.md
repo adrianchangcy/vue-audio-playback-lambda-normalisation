@@ -45,7 +45,7 @@ For example, these switches will feel familiar to me:
 - This provided strong benefits of knowing what was coded, and a tailored solution to cover all use cases
 
 #### I acknowledge that this is not always the best path during collaboration vs. solo work.
-However, I believe in being context-first, and for this project, it was the right thing to do.
+However, I believe in being context-first. For this project, it was the right thing to do.
 
 ### Solutions
 - Uses Animejs for smooth animation
