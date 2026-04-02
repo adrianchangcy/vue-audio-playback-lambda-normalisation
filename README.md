@@ -62,8 +62,8 @@ This project was being built from the ground up, solo, with an interest in learn
 
 ### Tips on Use
 - If you have >1 instances to track, give each of them their own UUID, and track with a parent component or store (Pinia)
-- For infinite scrolling, use <Teleport> to reuse VPlayback by "taking it out" or "putting it in" (works with vue-virtual-scroller)
-- Consider implementing your own replacement for emojis in the component (i.e. audio clip tones) with users' profile icons
+- For infinite scrolling, reuse 1 VPlayback with Vue's Teleport by "taking it out" and "putting it in" -> have the child component have a div with id+audio_id -> have the child component use a watcher -> watch for props loaded -> emit div id on match -> tell parent component to teleport VPlayback to the div (works with vue-virtual-scroller)
+- Consider implementing your own replacement for emojis in the component (i.e. audio clip tones) with users' profile icons, or removing it via VPlayback's ":prop-has-audio-clip-tone=false"
 
 
 ## 2. AWS Lambda to Normalise Audio and Extract Volume Peaks
